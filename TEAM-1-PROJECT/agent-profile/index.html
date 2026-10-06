@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit – AI Agent Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="brand"><span class="logo"></span>Orbit</div>
+  <nav><a href="../agent-dashboard/index.html">Overview</a><a class="active" href="../agent-list/index.html">Agents</a></nav>
+  <button class="primary" id="runBtn">Run a task</button>
+</header>
+<main>
+  <a class="back" href="../agent-list/index.html">← Back to all agents</a>
+  <section class="card head">
+    <span class="avatar" id="avatar"></span>
+    <div class="meta"><h1><span id="name"></span><span class="chip working" id="chip">Working</span></h1><small id="role"></small></div>
+    <div class="btns"><button class="soft primary" id="toggle">Pause agent</button></div>
+  </section>
+  <section class="stat-row" id="stats"></section>
+  <section class="layout">
+    <div class="card">
+      <div class="tabs" id="tabs"><button class="on" data-t="p1">Overview</button><button data-t="p2">Skills</button><button data-t="p3">Activity</button></div>
+      <div class="panel on" id="p1"><h2>Tasks completed, last 7 days</h2><div class="bars" id="bars"></div></div>
+      <div class="panel" id="p2"><h2>Skill levels</h2><div id="skills" class="panel on" style="animation:none"></div></div>
+      <div class="panel" id="p3"><h2>Recent activity</h2><ul class="feed" id="feed"></ul></div>
+    </div>
+    <aside class="card about"><h2>About</h2>
+      <dl><div><dt>Model</dt><dd>Orbit Core 2</dd></div><div><dt>Owner</dt><dd>BROO</dd></div><div><dt>Created</dt><dd>12 Aug 2026</dd></div><div><dt>Permissions</dt><dd class="tags"><span>Read data</span><span>Send email</span><span>Create tasks</span></dd></div></dl>
+    </aside>
+  </section>
+</main>
+<div class="cursor-dot" id="cDot"></div><div class="cursor-ring" id="cRing"></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>

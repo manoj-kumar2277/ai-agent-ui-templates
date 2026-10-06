@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit – Agent Status Monitoring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="brand"><span class="logo"></span>Orbit</div>
+  <nav><a href="../agent-dashboard/index.html">Overview</a><a href="../agent-list/index.html">Agents</a><a class="active" href="#">Monitoring</a></nav>
+  <button class="primary" id="pauseBtn">Pause live updates</button>
+</header>
+<main>
+  <section class="hero"><p class="eyebrow">Agent Status Monitoring</p><h1 id="kinetic">Always watching.</h1></section>
+  <section class="card banner-card" id="banner">
+    <span class="pulse"></span>
+    <div class="txt"><h2 id="bTitle">All agents are healthy</h2><p id="bSub">Last checked just now</p></div>
+    <button class="primary" id="refresh">Check now</button>
+  </section>
+  <section class="tiles" id="tiles"></section>
+  <section class="layout">
+    <div class="card"><h2>Uptime, last 30 days</h2><div class="hist" id="hist" role="img" aria-label="Daily uptime for 30 days"></div><div class="legend"><span>30 days ago</span><span>Today</span></div></div>
+    <aside class="card"><h2>Recent incidents</h2><ul class="inc" id="inc"></ul></aside>
+  </section>
+</main>
+<div class="cursor-dot" id="cDot"></div><div class="cursor-ring" id="cRing"></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
