@@ -19,15 +19,15 @@
 
 | | |
 |---|---|
-| **Team name** | `[TEAM NAME]` |
+| **Team name** | `TEAM KMD` |
 | **Selected UI topic** | **AI Agents** (category 4 of the project brief) |
 | **Repository** | [manoj-kumar2277/ai-agent-ui-templates](https://github.com/manoj-kumar2277/ai-agent-ui-templates) |
 
 | Member | GitHub | Role | UIs built |
 |---|---|---|---|
-| `[Member 1 name]` | [@manoj-kumar2277](https://github.com/manoj-kumar2277) | Repository owner, coordinator, UI developer | Dashboard, Agent List, Agent Profile, Status Monitoring |
-| `[Member 2 name]` | [@username](https://github.com/username) | Reviewer, UI developer | Task Queue, Activity Log, Approval Interface |
-| `[Member 3 name]` | [@username](https://github.com/username) | Tester, UI developer | Workflow Builder, Execution Timeline, Permissions |
+| `MANOJ REDDY` | [@manoj-kumar2277](https://github.com/manoj-kumar2277) | Repository owner, coordinator, UI developer | Dashboard, Agent List, Agent Profile, Status Monitoring |
+| `KUSHI` | [@kushibaira](https://github.com/kushibaira) | Reviewer, UI developer | Task Queue, Activity Log, Approval Interface |
+| `DILIP REDDY` | [@dilipreddy2](https://github.com/dilipreddy2) | Tester, UI developer | Workflow Builder, Execution Timeline, Permissions |
 
 ---
 
