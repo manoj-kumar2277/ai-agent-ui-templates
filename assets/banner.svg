@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="AI Agent UI Templates banner">
+  <defs>
+    <radialGradient id="g1" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#2a63ff"/><stop offset="1" stop-color="#0a35c8"/></radialGradient>
+    <radialGradient id="g2" cx="100%" cy="100%" r="60%"><stop offset="0" stop-color="#04197a"/><stop offset="1" stop-color="#04197a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="340" rx="22" fill="url(#g1)"/><rect width="1280" height="340" rx="22" fill="url(#g2)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="3" stroke-linecap="round">
+    <path d="M900 90 C 960 90, 960 170, 1020 170"/><path d="M1090 170 C 1130 170, 1130 250, 1170 250"/><path d="M900 90 C 960 90, 960 250, 1020 250" stroke-dasharray="6 8"/>
+  </g>
+  <g>
+    <rect x="800" y="62" width="110" height="56" rx="16" fill="#ffd800"/><rect x="1018" y="142" width="78" height="56" rx="16" fill="#ffffff" fill-opacity=".92"/>
+    <rect x="1018" y="222" width="78" height="56" rx="16" fill="#0a2a9c"/><rect x="1166" y="222" width="70" height="56" rx="16" fill="#ffd800"/>
+    <g fill="#0a2a9c" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="20"><text x="826" y="97">Trigger</text><text x="1034" y="177">Agent</text></g>
+    <text x="1034" y="257" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="20">Action</text>
+    <text x="1182" y="257" fill="#0a2a9c" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="20">Done</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <circle cx="74" cy="66" r="14" fill="#ffd800"/><text x="100" y="74" fill="#fff" font-size="26">Orbit</text>
+    <text x="60" y="162" fill="#ffffff" font-size="76" letter-spacing="-3">AI AGENT</text>
+    <text x="60" y="244" fill="#ffd800" font-size="76" letter-spacing="-3">UI TEMPLATES</text>
+  </g>
+  <text x="62" y="288" fill="#ffffff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="22">10 responsive interfaces for monitoring, controlling and building AI agents.</text>
+</svg>
